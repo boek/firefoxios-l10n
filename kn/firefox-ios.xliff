@@ -4,10 +4,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
-      <trans-unit id="1Password Fill Browser Action" xml:space="preserve">
-        <source>1Password Fill Browser Action</source>
-        <note></note>
-      </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>This lets you take and upload photos.</source>
         <target>ಇದು ನಿಮ್ಮನ್ನು ಫೋಟೊ ತೆಗೆಯಲು ಮತ್ತು ಅಪ್ಲೋಡ್ ಮಾಡಲು ಬಿಡುತ್ತದೆ.</target>
@@ -337,6 +333,10 @@
       <trans-unit id="DefaultBrowserCard.Button" xml:space="preserve">
         <source>Go to Settings</source>
         <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserCard.Button.v2" xml:space="preserve">
+        <source>Learn How</source>
+        <note>Button string to learn how to set your default browser.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Description" xml:space="preserve">
         <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
@@ -3382,6 +3382,10 @@
         <source>Remove Bookmark</source>
         <target>ಪುಟ ಗುರುತು ತೆಗೆ</target>
         <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ReportSiteIssueAction.Title" xml:space="preserve">
+        <source>Report Site Issue</source>
+        <note>Label for the button, displayed in the menu, used to report a compatibility issue with the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.ScanQRCodeAction.Title" xml:space="preserve">
         <source>Scan QR Code</source>
